@@ -6,21 +6,19 @@ using System.Text;
 
 namespace MainModelLibraryTest
 {
-    [TestClass]
-    public class FindAverageValueTest
+    public class FindSqrtTest
     {
-        [TestMethod]
-        public void GetAverageElements_Test()
+        public void FindSqrtValueTest()
         {
             //Arrange
-            int[] array = { 2, 5, 3 };
+            double input = 9;
+            double expected = 3;
 
             //Act
-            double result = FindAverageValue.GetAverage(array);
+            double actual = FindSqrt.GetSqrt(input);
 
             //Assert
-            Assert.AreEqual(3.33, result, 0.01);
-
+            Assert.AreEqual(expected, actual);
         }
     }
 }
