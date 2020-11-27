@@ -17,8 +17,5 @@ namespace MainModelLibrary
             return max;
         }
 
-    
-
-
     }
 }
