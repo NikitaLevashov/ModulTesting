@@ -6,8 +6,10 @@ using System.Text;
 
 namespace MainModelLibraryTest
 {
+    [TestClass]
     public class FindSqrtTest
     {
+        [TestMethod]
         public void FindSqrtValueTest()
         {
             //Arrange
